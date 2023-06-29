@@ -1,0 +1,71 @@
+/*shows how each blog in the front page looks like */
+.card {
+    margin-top:4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 15px 20px 40px #888888;
+}
+.card h2 {
+    padding: 0rem 6rem 0rem 7rem;
+}
+.card {
+    font-size: 1rem;
+}
+
+.imgContainer img{
+    position: relative;
+    height:28vh;
+    width: 100%;
+}
+
+.card img:hover {
+    opacity: 0.8;
+}
+
+.details{
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.date{
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+}
+
+.date h3 {
+    font-size: 16px;
+}
+
+.card img {
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.author {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.author img {
+    width:2.5rem;
+    height:2.5rem;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 768px){
+    .card {
+        margin: 0rem 2rem;
+    }
+}
+
+
+
+
+

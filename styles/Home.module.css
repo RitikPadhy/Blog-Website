@@ -1,0 +1,17 @@
+/*This helps in creating different blogs and helps in creating paddings between them and roganize them */
+
+.title h1{
+  color:rgb(39,39,39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  font-size: 1rem;
+}
+
+.main{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+  grid-gap: 3rem;
+}
+
